@@ -1,0 +1,108 @@
+#editor-toolbar {
+   position:fixed;
+   top: 0px;
+   width: 100%;
+   height: 70px;
+   background-color: black;
+   background-color: rgba(0,0,0, 0.7);
+}
+
+#editor-inner {
+   width: 960px;
+   margin: auto;
+   padding: 18px 10px;
+   color: white;
+}
+
+#editor-inner div,
+#editor-inner p {
+	color: #fff!important;
+}
+
+.editor-control {
+   display: none;
+}
+
+button.editor, div.editor{
+	background-color: #333;
+	color: #fff;
+}
+
+h3 span.edit-hover-link,
+label a.edit-hover-link{
+	display: none;
+	font-family: Arial, Ubuntu, 'DejaVu Sans', 'Droid Sans', sans-serif;
+	font-size: 13px;
+	font-weight: 300;
+}
+
+.entry h3{
+	overflow: auto;
+}
+
+h3:hover span.edit-hover-link,
+div.quiz-answer:hover  a.edit-hover-link{
+	display: inline-block;
+}
+
+h3 span.edit-hover-link.delete a,
+a.edit-hover-link.delete{
+	color: #C30000;
+}
+
+h3 span.edit-hover-link.edit a {
+	color: #79b9d3;
+}
+
+.ui-dialog-content fieldset label{
+	width: 35%;
+	float: left;
+}
+
+.ui-dialog-content fieldset input.text{
+	width: 60%;
+	float: left;
+}
+
+.ui-dialog-content fieldset meter {
+	width: 60%;
+	float: left;
+}
+
+.ui-dialog-content fieldset textarea{
+	width: 97%;
+	float: left;
+}
+
+#editor-saving-in-progress {
+	float: left;
+	margin: 0 12px 0 0;
+	display: none;
+}
+
+#editor-saved-success-hint{
+	float: left;
+	margin: 2px 12px 0 0;
+	padding: 7px 17px;
+	display: none;
+	background-color: #89A057;
+	color: whitesmoke;
+}
+
+input[type=file]{
+	width: 60%;
+}
+
+.polaicon{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(255,255,255,0.7) url('/a/images/icons/orange/polaroids.png') no-repeat center center;
+	width: 100%;
+	height: 100%;
+}
+
+a:hover div.polaicon{
+	display: block;
+}
